@@ -161,3 +161,11 @@ line-height: 1.2em;
 .box i {
   margin-bottom: 10px;
 }
+
+/* footer */
+#main-footer {
+  text-align: center;
+  background: #f2f2f2;
+  color: #21c4b1;
+  padding: 20px;
+}
