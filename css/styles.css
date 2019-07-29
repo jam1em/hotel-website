@@ -35,10 +35,36 @@ p {
   padding: 0 20px;
 }
 
+.bg-dark {
+  background: #f2f2f2;
+}
+
+.bg-dark h2 {
+color:  #21c4b1;
+}
+
 /* Navbar Styling */
 
+.intro-para {
+  font-size: 18px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  background: #21c4b1;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #7ecfc0;
+  color: #fff;
+}
 #navbar {
-  background: #333;
+  background: #1d2323;
   color: #fff;
   overflow: auto;
 }
@@ -87,6 +113,39 @@ padding-top: 170px;
 }
 
 #content .show-content h1{
-font-size: 50px;
+font-size: 58px;
 line-height: 1.2em;
+}
+
+#content .show-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+
+/* section */
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('../images/aisle-architecture.jpg') no-repeat;
+  min-height: 100%;
+
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
