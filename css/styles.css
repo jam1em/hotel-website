@@ -43,6 +43,10 @@ p {
 color:  #21c4b1;
 }
 
+.clr {
+  clear: both;
+}
+
 /* Navbar Styling */
 
 .intro-para {
@@ -57,7 +61,13 @@ color:  #21c4b1;
   padding: 13px 20px;
   border: none;
   cursor: pointer;
+  -webkit-border-radius: 30;
+   -moz-border-radius: 30;
+   border-radius: 30px;
+   padding: 10px 20px 10px 20px;
+   text-decoration: none;
 }
+
 
 .btn:hover {
   background: #7ecfc0;
@@ -134,7 +144,6 @@ line-height: 1.2em;
   width: 50%;
   background: url('../images/aisle-architecture.jpg') no-repeat;
   min-height: 100%;
-
 }
 
 #home-info .info-content {
@@ -152,6 +161,8 @@ line-height: 1.2em;
 
 /* Amenities */
 .box {
+  background: #21c4b1;
+  color:#fff;
   float: left;
   width: 33.3%;
   padding: 50px;
@@ -168,4 +179,5 @@ line-height: 1.2em;
   background: #f2f2f2;
   color: #21c4b1;
   padding: 20px;
+  font-size: 21px;
 }
