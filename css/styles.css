@@ -149,3 +149,15 @@ line-height: 1.2em;
 #home-info .info-content p {
   padding-bottom: 30px;
 }
+
+/* Amenities */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align:center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
