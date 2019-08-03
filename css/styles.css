@@ -69,7 +69,9 @@ color:  #21c4b1;
   color: #333;
 }
 
-
+.contact-dark{
+background: #21c4b1; 
+}
 .bg-primary {
   background: #000000;
 }
