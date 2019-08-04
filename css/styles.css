@@ -69,9 +69,11 @@ color:  #21c4b1;
   color: #333;
 }
 
-.contact-dark{
-background: #21c4b1; 
+.contact-dark {
+background: #21c4b1;
+color:#fff;
 }
+
 .bg-primary {
   background: #000000;
 }
@@ -81,6 +83,7 @@ background: #21c4b1;
 
 .l-heading {
   font: 50px;
+  line-height: 1.2;
   color:#21c4b1;
 }
 
@@ -101,8 +104,6 @@ background: #21c4b1;
 .intro-para {
   font-size: 18px;
 }
-
-
 
 #navbar {
   background: #1d2323;
